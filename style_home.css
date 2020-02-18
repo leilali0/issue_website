@@ -1,0 +1,94 @@
+body,html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.nav {
+  padding-top: 25px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.pet_page{
+  background-color: #5A3511;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.home_text{
+  padding-top: 580px;
+  font-size: 60px;
+  color: #5A3511;
+}
+
+.homepage{
+  background-image: url("image/help.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.article{
+  font-size: 24px;
+  padding-left: 30px;
+}
+
+.next_page a{
+  font-size: 48px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+.site_page{
+  background-image: url("image/site.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.hero-text{
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.table a{
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  text-align: center;
+}
+
+.donate{
+  background-color: #5A3511;
+  color: white;
+}
+
+.donate h1{
+  font-size: 64px;
+}
+
+input{
+  padding: 10px;
+}
+
+.contact_form{
+  font-size: 24px;
+  text-align: center;
+}
+
+.donate p{
+  font-size: 18px;
+}
