@@ -26,6 +26,7 @@ body,html{
   padding-top: 580px;
   font-size: 60px;
   color: #5A3511;
+  text-decoration: none;
 }
 
 .homepage{
@@ -34,6 +35,11 @@ body,html{
   background-size: cover;
   position: relative;
   height: 100%;
+}
+
+.title{
+  font-size: 32px;
+  padding-left: 12px;
 }
 
 .article{
@@ -45,7 +51,8 @@ body,html{
   font-size: 48px;
   text-decoration: none;
   color: white;
-  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .site_page{
