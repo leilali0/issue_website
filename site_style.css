@@ -1,0 +1,74 @@
+body,html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navBar {
+  display: flex;
+  padding-top: 4vmin;
+  justify-content: space-around;
+}
+
+.navLink {
+  display: flex;
+  font-size: 26px;
+}
+
+.sitePage{
+  display: flex;
+  flex-direction: column;
+  background-image: url("image/site.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+}
+
+.sitePage a{
+  color: white;
+}
+
+.sitePageContain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.siteTitle {
+  display: flex;
+  color: white;
+  font-size: 7.5vmin;
+  padding-top: 8vmin;
+  align-self: center;
+}
+
+.sites {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vmin;
+}
+
+.rowOne {
+  display: flex;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  justify-content: space-around;
+}
+
+.rowTwo {
+  display: flex;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+  justify-content: space-around;
+}
+
+.sites h3 {
+  color: white;
+  font-size: 3.5vmin;
+}

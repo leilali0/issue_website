@@ -1,0 +1,58 @@
+body,html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navBar {
+  padding-top: 4vmin;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLink {
+  display: flex;
+  font-size: 26px;
+}
+
+.donate {
+  display: flex;
+  flex-direction: column;
+  background-image: url("image/6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.donate a {
+  color: white;
+}
+
+.donatePageContain {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7vmin;
+}
+
+.donate_text {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  font-size: 5.5vmin;
+  color: white;
+  padding-left: 24vmin;
+  padding-right: 14vmin;
+}
+
+.contact {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3vmin;
+  padding-bottom: 9vmin;
+}
