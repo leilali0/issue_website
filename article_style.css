@@ -8,6 +8,19 @@ a {
   text-decoration: none;
 }
 
+a:hover:not(.active) {
+  text-decoration: underline;
+}
+
+.current a{
+  text-decoration: underline;
+}
+
+.current {
+  display: flex;
+  font-size: 26px;
+}
+
 .navBar {
   padding-top: 4vmin;
   display: flex;
@@ -22,7 +35,7 @@ a {
 .petPage{
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #F8F8F8;
   color: black;
 }
 
@@ -33,29 +46,41 @@ a {
 .petPageContainer {
   display: flex;
   flex-direction: column;
-  padding-left: 24vmin;
-  padding-right: 24vmin;
   padding-top: 12vmin;
+  padding-left: 12vmin;
+  padding-right: 12vmin;
 }
 
 .title{
   display: flex;
   justify-content: center;
+  color: white;
   font-size: 5vmin;
   padding-bottom: 8vmin;
+  padding-left: 12vmin;
+  padding-right: 12vmin;
 }
 
+.titleImage {
+  display: flex;
+  flex-direction: column;
+  background-image: url("image/9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .article{
   display: flex;
   flex-direction: column;
   font-size: 24px;
   padding-left: 4vmin;
+  padding-left: 12vmin;
+  padding-right: 12vmin;
 }
 
-.next_page a{
+.next_page {
   font-size: 48px;
   text-decoration: none;
-  color: white;
-  align-items: center;
+  align-self: center;
+  padding-bottom: 5vmin;
 }

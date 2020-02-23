@@ -13,15 +13,14 @@ a {
   background-image: url("image/home.jpg");
   background-size: cover;
   height: 100%;
-  align-content: center;
   justify-content: center;
   color: white;
 }
 
 .homeText {
   display: flex;
-  align-self: flex-start;
   font-size: 10vmin;
   padding-right: 45vmin;
   padding-left: 45vmin;
+  align-self: center;
 }

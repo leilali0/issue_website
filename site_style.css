@@ -8,6 +8,19 @@ a {
   text-decoration: none;
 }
 
+a:hover:not(.active) {
+  text-decoration: underline;
+}
+
+.current a{
+  text-decoration: underline;
+}
+
+.current {
+  display: flex;
+  font-size: 26px;
+}
+
 .navBar {
   display: flex;
   padding-top: 4vmin;
@@ -22,11 +35,10 @@ a {
 .sitePage{
   display: flex;
   flex-direction: column;
-  background-image: url("image/site.jpg");
+  background-image: url("image/10.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-
 }
 
 .sitePage a{
@@ -43,15 +55,15 @@ a {
 .siteTitle {
   display: flex;
   color: white;
-  font-size: 7.5vmin;
-  padding-top: 8vmin;
-  align-self: center;
+  font-size: 6vmin;
+  padding-top: 6vmin;
+  padding-left: 24vmin;
 }
 
 .sites {
   display: flex;
   flex-direction: column;
-  padding-top: 2vmin;
+  justify-content: space-between;
 }
 
 .rowOne {

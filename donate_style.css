@@ -8,6 +8,19 @@ a {
   text-decoration: none;
 }
 
+a:hover:not(.active) {
+  text-decoration: underline;
+}
+
+.current a{
+  text-decoration: underline;
+}
+
+.current a{
+  display: flex;
+  font-size: 26px;
+}
+
 .navBar {
   padding-top: 4vmin;
   display: flex;
@@ -22,7 +35,7 @@ a {
 .donate {
   display: flex;
   flex-direction: column;
-  background-image: url("image/6.jpg");
+  background-image: url("image/8.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -54,5 +67,5 @@ a {
   flex-direction: column;
   align-items: center;
   font-size: 3vmin;
-  padding-bottom: 9vmin;
+  padding-bottom: 8vmin;
 }
